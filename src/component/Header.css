@@ -1,0 +1,116 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #999;
+}
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.container {
+    position: relative;
+    width: 100%; 
+}
+.main {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    background: #fff;
+    transition: 5s;
+    background-image: url(img/pesbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+.topbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background:#0f5cd8;
+}
+.toggle, .user {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.search {
+    position: relative;
+    width: 400px;
+    margin: 0 10px;
+}
+.search label {
+    margin-left: 70px;
+    position: relative;
+    width: 100%;
+}
+.search label input {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    padding-left: 35px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #222;
+}
+.search label h4{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 1.2rem;
+ }.cardBox {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    transition: 2s;
+}
+.cardBox .card{
+    position: relative;
+    background: var(--white);
+    padding: 30px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 2px solid  #222;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    transition: 1s;
+}
+.cardBox .card .cardName {
+    color: #999;
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+.cardBox .card .iconBox {
+    font-size: 3.5em;
+    color: #999;
+}
+.cardBox .card:hover {
+    background: #287bff;
+}
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBox {
+    color: var(--white);
+}
+.btn {
+    margin-right: -100px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid #222;
+}

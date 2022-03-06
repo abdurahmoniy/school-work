@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+ }/*
+.container {
+  width: 500px;
+  margin-left: 430px;
 }
+.row {
+  width: 100%;
+  display: flex;
+} 
+.btn {
+  padding: 20px 60px;
+  margin: 30px;
+  background: transparent;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.btn3 {
+  width: 100%;
+  background: transparent;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 20px;
+}
+.txt {
+  margin: 30px;
+  font-size: 40px;
+}
+.btn:hover, .btn3:hover{
+  transition: .5s;
+  background: red;
+  transform: scale(1.1);
+}
+.count {
+  text-align: center;
+} */
